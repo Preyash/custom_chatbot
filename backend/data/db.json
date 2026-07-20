@@ -1,0 +1,140 @@
+{
+  "sessions": [
+    {
+      "sessionId": "session_ukvu613nf",
+      "name": "Customer",
+      "email": "",
+      "status": "active",
+      "agentId": "agent_1",
+      "userAgent": "",
+      "platform": "",
+      "createdAt": "2026-07-20T11:52:09.222Z",
+      "updatedAt": "2026-07-20T11:57:35.141Z"
+    },
+    {
+      "sessionId": "offline_m22w0gynm",
+      "name": "matt",
+      "email": "matt@gmail.com",
+      "status": "active",
+      "agentId": "agent_1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "platform": "Win32",
+      "createdAt": "2026-07-20T11:54:35.756Z",
+      "updatedAt": "2026-07-20T12:39:04.290Z"
+    }
+  ],
+  "messages": [
+    {
+      "_id": "msg_eyyl4d6o9",
+      "sessionId": "session_ukvu613nf",
+      "sender": "customer",
+      "text": "test 05:18",
+      "readAt": "2026-07-20T11:55:09.359Z",
+      "createdAt": "2026-07-20T11:48:24.882Z"
+    },
+    {
+      "_id": "msg_krshna09z",
+      "sessionId": "offline_m22w0gynm",
+      "sender": "customer",
+      "text": "[Offline Form] Email: matt@gmail.com\nMessage: test",
+      "readAt": "2026-07-20T11:55:08.580Z",
+      "createdAt": "2026-07-20T11:54:35.756Z"
+    },
+    {
+      "_id": "msg_206bpa11y",
+      "sessionId": "offline_m22w0gynm",
+      "sender": "agent",
+      "text": "hi matt",
+      "readAt": "2026-07-20T11:54:53.344Z",
+      "createdAt": "2026-07-20T11:54:53.058Z"
+    },
+    {
+      "_id": "msg_fgpi56oeg",
+      "sessionId": "offline_m22w0gynm",
+      "sender": "agent",
+      "text": "How can I help you?",
+      "readAt": "2026-07-20T11:56:27.958Z",
+      "createdAt": "2026-07-20T11:56:27.673Z"
+    },
+    {
+      "_id": "msg_4q8i39j7v",
+      "sessionId": "offline_m22w0gynm",
+      "sender": "customer",
+      "text": "whats the return policy?",
+      "readAt": "2026-07-20T11:57:50.894Z",
+      "createdAt": "2026-07-20T11:57:50.601Z"
+    },
+    {
+      "_id": "msg_wttvn5wpx",
+      "sessionId": "offline_m22w0gynm",
+      "sender": "agent",
+      "text": "It's mentioned on the website",
+      "readAt": "2026-07-20T12:04:21.293Z",
+      "createdAt": "2026-07-20T12:04:21.011Z"
+    },
+    {
+      "_id": "msg_f456x2yai",
+      "sessionId": "offline_m22w0gynm",
+      "sender": "customer",
+      "text": "Order Status",
+      "readAt": "2026-07-20T12:04:27.423Z",
+      "createdAt": "2026-07-20T12:04:27.145Z"
+    },
+    {
+      "_id": "msg_r9ppnhss7",
+      "sessionId": "offline_m22w0gynm",
+      "sender": "agent",
+      "text": "You will get your order by 24 July",
+      "readAt": "2026-07-20T12:06:42.360Z",
+      "createdAt": "2026-07-20T12:06:42.062Z"
+    },
+    {
+      "_id": "msg_kevfmqmt9",
+      "sessionId": "offline_m22w0gynm",
+      "sender": "customer",
+      "text": "Help me",
+      "readAt": "2026-07-20T12:06:49.915Z",
+      "createdAt": "2026-07-20T12:06:49.639Z"
+    },
+    {
+      "_id": "msg_vppjt376q",
+      "sessionId": "offline_m22w0gynm",
+      "sender": "agent",
+      "text": "What do we need help with?",
+      "readAt": "2026-07-20T12:24:57.667Z",
+      "createdAt": "2026-07-20T12:24:57.392Z"
+    },
+    {
+      "_id": "msg_tnwa8doiv",
+      "sessionId": "offline_m22w0gynm",
+      "sender": "customer",
+      "text": "test",
+      "readAt": "2026-07-20T12:34:14.961Z",
+      "createdAt": "2026-07-20T12:34:05.939Z"
+    },
+    {
+      "_id": "msg_3vfob6o1z",
+      "sessionId": "offline_m22w0gynm",
+      "sender": "agent",
+      "text": "test - done",
+      "readAt": "2026-07-20T12:34:12.341Z",
+      "createdAt": "2026-07-20T12:34:12.056Z"
+    },
+    {
+      "_id": "msg_p8zuefigt",
+      "sessionId": "offline_m22w0gynm",
+      "sender": "customer",
+      "text": "testing",
+      "readAt": "2026-07-20T12:39:09.644Z",
+      "createdAt": "2026-07-20T12:38:52.454Z"
+    },
+    {
+      "_id": "msg_0b01taxsa",
+      "sessionId": "offline_m22w0gynm",
+      "sender": "agent",
+      "text": "testing - done",
+      "readAt": "2026-07-20T12:39:04.574Z",
+      "createdAt": "2026-07-20T12:39:04.290Z"
+    }
+  ]
+}

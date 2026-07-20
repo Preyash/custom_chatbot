@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bubbleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="innerGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  
+  <!-- Outer Chat Bubble (Glow and shadow) -->
+  <g filter="url(#glow)">
+    <path d="M 140 170 C 140 136.8 166.8 110 200 110 L 312 110 C 345.2 110 372 136.8 372 170 L 372 282 C 372 315.2 345.2 342 312 342 L 230 342 L 140 395 L 140 342 C 140 342 140 342 140 342 C 140 342 140 342 140 342 C 140 342 140 342 140 342 Z" fill="url(#bubbleGrad)" />
+    
+    <!-- Inner Chat Bubble for Neon Effect -->
+    <path d="M 160 190 C 160 167.9 177.9 150 200 150 L 312 150 C 334.1 150 352 167.9 352 190 L 352 282 C 352 304.1 334.1 322 312 322 L 240 322 L 175 360 L 175 322 C 160 322 160 322 160 322 C 160 322 160 322 160 190 Z" fill="url(#innerGlow)" opacity="0.7" />
+  </g>
+  
+  <!-- Sleek Typing Dots -->
+  <circle cx="216" cy="236" r="16" fill="#ffffff" />
+  <circle cx="272" cy="236" r="16" fill="#ffffff" />
+  <circle cx="328" cy="236" r="16" fill="#ffffff" />
+</svg>

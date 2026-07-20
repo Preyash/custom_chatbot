@@ -1,0 +1,17 @@
+{
+  "name": "custom-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "tunnel:backend": "ssh -o StrictHostKeyChecking=no -o ServerAliveInterval=30 -o ServerAliveCountMax=5 -R custom-chatbot-backend-asus:80:localhost:5000 serveo.net",
+    "tunnel:dashboard": "ssh -o StrictHostKeyChecking=no -o ServerAliveInterval=30 -o ServerAliveCountMax=5 -R custom-chatbot-dashboard-asus:80:localhost:3001 serveo.net",
+    "tunnel:widget": "ssh -o StrictHostKeyChecking=no -o ServerAliveInterval=30 -o ServerAliveCountMax=5 -R custom-chatbot-widget-asus:80:localhost:3000 serveo.net",
+    "start:backend": "cd backend && npm run start",
+    "start:dashboard": "cd agent-dashboard && npm run start",
+    "start:widget": "cd customer-widget && npm run start",
+    "start:all": "concurrently \"npm run tunnel:backend\" \"npm run tunnel:dashboard\" \"npm run tunnel:widget\" \"npm run start:backend\" \"npm run start:dashboard\" \"npm run start:widget\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
